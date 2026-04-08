@@ -1,0 +1,49 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme inline {
+  --color-accent: #05dfd7;
+  --color-bg-deep: #040404;
+  --font-sans: var(--font-open-sans), ui-sans-serif, system-ui, sans-serif;
+  --font-heading: var(--font-raleway), ui-sans-serif, system-ui, sans-serif;
+}
+
+body {
+  scrollbar-color: #05dfd7 rgba(5, 223, 215, 0.15);
+}
+
+.dark body {
+  scrollbar-color: #05dfd7 rgba(5, 223, 215, 0.1);
+}
+
+.section-scroll {
+  scrollbar-width: thin;
+  scrollbar-color: #05dfd7 rgba(5, 223, 215, 0.15);
+}
+
+.dark .section-scroll {
+  scrollbar-color: #05dfd7 rgba(5, 223, 215, 0.1);
+}
+
+.section-scroll::-webkit-scrollbar {
+  width: 8px;
+}
+
+.section-scroll::-webkit-scrollbar-track {
+  background: rgba(5, 223, 215, 0.15);
+  border-radius: 10px;
+}
+
+.dark .section-scroll::-webkit-scrollbar-track {
+  background: rgba(5, 223, 215, 0.1);
+}
+
+.section-scroll::-webkit-scrollbar-thumb {
+  background: #05dfd7;
+  border-radius: 10px;
+}
+
+.section-scroll::-webkit-scrollbar-thumb:hover {
+  background: #0d7377;
+}

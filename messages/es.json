@@ -1,0 +1,276 @@
+{
+  "meta": {
+    "title": "Felipe Narváez Gómez — Portafolio",
+    "description": "Desarrollador y diseñador creativo. Portafolio con proyectos web, diseño y producción audiovisual."
+  },
+  "nav": {
+    "home": "Home",
+    "about": "Acerca de mí",
+    "experience": "Experiencia",
+    "projects": "Proyectos",
+    "testimonials": "Testimonios",
+    "contact": "Contacto"
+  },
+  "hero": {
+    "name": "Felipe Narváez Gómez",
+    "role": "Desarrollador y Diseñador Creativo",
+    "videoPlaceholder": "Video de presentación (30–45 s)",
+    "videoHint": "Coloca tus archivos en /public/videos/intro-{locale}.mp4"
+  },
+  "about": {
+    "title": "Acerca de Mí",
+    "introTitle": "Mi Trayectoria",
+    "intro1": "¡Hola! Soy Felipe Narváez Gómez, un apasionado por la tecnología y el diseño, con una trayectoria que fusiona la creatividad artística con la lógica del desarrollo de software.",
+    "intro2": "Mi viaje profesional me ha permitido explorar desde la producción musical y el diseño gráfico hasta la creación de contenido digital y el desarrollo de aplicaciones innovadoras.",
+    "intro3": "Actualmente, dedico mi tiempo a desarrollar soluciones tecnológicas para empresas, donde cada línea de código y cada elemento de diseño se conciben con un propósito: crear experiencias digitales intuitivas y de alto impacto.",
+    "goalsTitle": "Metas y Aspiraciones",
+    "goals1": "Mis metas profesionales se orientan hacia la especialización en el desarrollo frontend y el diseño UX/UI, buscando constantemente proyectos que me permitan innovar y generar un impacto positivo en los usuarios.",
+    "goals2": "Aspiro a seguir creciendo en un entorno dinámico, manteniendo siempre un equilibrio entre mi vida profesional y mis hobbies, que nutren mi creatividad y mi bienestar.",
+    "skillsTechTitle": "Habilidades Técnicas",
+    "skillsSoftTitle": "Habilidades Blandas",
+    "servicesTitle": "Servicios",
+    "services": {
+      "web": {
+        "title": "Diseño Web & UX/UI",
+        "body": "Creación de interfaces modernas, intuitivas y responsivas que no solo cumplen con los objetivos funcionales, sino que también ofrecen una experiencia de usuario excepcional."
+      },
+      "social": {
+        "title": "Redes Sociales",
+        "body": "Gestión integral y desarrollo de estrategias de contenido para redes sociales, potenciando la presencia digital y el engagement de marcas y proyectos."
+      },
+      "automation": {
+        "title": "Automatización",
+        "body": "Implementación de soluciones de automatización para optimizar flujos de trabajo, reducir tareas repetitivas y aumentar la productividad empresarial."
+      }
+    },
+    "skillsTech": [
+      "HTML5 & CSS3",
+      "JavaScript",
+      "TypeScript",
+      "React",
+      "Next.js",
+      "Spring Boot",
+      "Flutter",
+      "Figma",
+      "n8n",
+      "Photoshop",
+      "Illustrator",
+      "Davinci Resolve"
+    ],
+    "skillsSoft": [
+      "Creatividad",
+      "Comunicación",
+      "Determinación",
+      "Pasión",
+      "Liderazgo",
+      "Trabajo en Equipo"
+    ]
+  },
+  "experience": {
+    "title": "Experiencia Académica y Laboral",
+    "workTitle": "Experiencia Laboral",
+    "academicTitle": "Experiencia Académica",
+    "certsTitle": "Certificaciones Destacadas",
+    "badges": {
+      "current": "Actual",
+      "versatility": "Versatilidad",
+      "initiative": "Iniciativa",
+      "teamwork": "Trabajo en Equipo",
+      "inProgress": "En Progreso",
+      "problemSolving": "Resolución de Problemas",
+      "collaboration": "Colaboración"
+    },
+    "work": [
+      {
+        "title": "Creador de Contenido Audiovisual",
+        "company": "Marca de Barbería, Pasto",
+        "date": "Marzo 2026 – Presente",
+        "body": "Responsable de la conceptualización, grabación y edición de videos de alta calidad para plataformas digitales.",
+        "bullets": [
+          "Producción de contenido visual estratégico",
+          "Edición y postproducción profesional",
+          "Gestión de redes sociales"
+        ],
+        "badges": ["current"]
+      },
+      {
+        "title": "Emprendedor & Profesional Freelance",
+        "company": "Múltiples Proyectos",
+        "body": "Desarrollo y gestión de proyectos propios en diversas áreas:",
+        "bullets": [
+          "Vendedor — Gestión comercial",
+          "Diseñador Gráfico — Identidad visual",
+          "Creador de Contenido — Redes sociales",
+          "Productor Musical — Composición y producción"
+        ],
+        "badges": ["versatility", "initiative"]
+      },
+      {
+        "title": "Servidor - Impact Fest",
+        "company": "Evento de Emprendimiento, Nariño",
+        "date": "Junio 2025",
+        "body": "Colaboración activa en la organización y ejecución de Impact Fest, un evento clave de emprendimiento en Nariño.",
+        "badges": ["teamwork"]
+      }
+    ],
+    "academic": [
+      {
+        "title": "Ingeniería de Software",
+        "company": "Universidad Cooperativa",
+        "body": "Formación integral en desarrollo de software, algoritmos, estructuras de datos y metodologías ágiles.",
+        "bullets": [
+          "Programación orientada a objetos",
+          "Bases de datos y SQL",
+          "Desarrollo web y móvil",
+          "Metodologías ágiles (Scrum)"
+        ],
+        "badges": ["inProgress"]
+      },
+      {
+        "title": "Formación Complementaria",
+        "company": "Seminarios y Talleres",
+        "body": "Participación en diversos seminarios y talleres actualizando conocimientos en las últimas tendencias del sector."
+      },
+      {
+        "title": "Hackathon Vibe Coding",
+        "company": "Evento Intensivo de Desarrollo",
+        "date": "Diciembre 2025 (2 días)",
+        "body": "Participación activa en un evento intensivo de desarrollo, aplicando habilidades de programación y resolución de problemas en un entorno colaborativo y de alta presión.",
+        "badges": ["problemSolving", "collaboration"]
+      }
+    ],
+    "certs": [
+      {
+        "title": "Seminario de Ingeniería de Software",
+        "body": "Actualización en mejores prácticas y tendencias actuales del desarrollo de software."
+      },
+      {
+        "title": "Hackathon Vibe Coding 2025",
+        "body": "Participación en evento de desarrollo intensivo con enfoque en innovación y trabajo en equipo."
+      }
+    ]
+  },
+  "projects": {
+    "title": "Mis Proyectos",
+    "subtitle": "Proyectos Destacados",
+    "roleLabel": "Rol",
+    "view": "Ver",
+    "items": [
+      {
+        "category": "Frontend",
+        "title": "Reproductor Musical",
+        "description": "Reproductor musical interactivo y moderno con interfaz intuitiva y controles avanzados.",
+        "tech": ["TypeScript", "React", "CSS"],
+        "role": "Desarrollador Principal",
+        "href": "https://reproductor-musical-two.vercel.app"
+      },
+      {
+        "category": "Full Stack",
+        "title": "Gestor de Gastos e Ingresos",
+        "description": "Aplicación completa para gestión eficiente de finanzas personales y empresariales.",
+        "tech": ["Spring Boot", "React", "MySQL"],
+        "role": "Desarrollador Principal",
+        "href": "https://expenses-frontend-plum.vercel.app"
+      },
+      {
+        "category": "Backend",
+        "title": "Calculadora Multivariada",
+        "description": "Herramienta especializada para realizar cálculos complejos en el ámbito multivariado.",
+        "tech": ["TypeScript", "Node.js", "API REST"],
+        "role": "Desarrollador Backend",
+        "href": "https://backend-api-calculo-multivariado.vercel.app"
+      },
+      {
+        "category": "Frontend",
+        "title": "Landing Page Publicitaria",
+        "description": "Landing page optimizada para campañas publicitarias de alto impacto y conversión.",
+        "tech": ["JavaScript", "CSS", "HTML"],
+        "role": "Desarrollador Frontend",
+        "href": ""
+      },
+      {
+        "category": "Producción",
+        "title": "Portafolio de Videos",
+        "description": "Colección curada de videos creados para empresas, mostrando habilidades en edición y postproducción.",
+        "tech": ["Davinci Resolve", "After Effects", "Capcut"],
+        "role": "Productor Audiovisual",
+        "href": ""
+      },
+      {
+        "category": "Diseño",
+        "title": "Diseño de Marca y Marketing Digital",
+        "description": "Proyectos de branding integral y estrategias de marketing digital para negocios.",
+        "tech": ["Figma", "Photoshop", "Illustrator"],
+        "role": "Diseñador de Branding",
+        "href": ""
+      },
+      {
+        "category": "Full Stack + AI",
+        "title": "Predicción de Criptomonedas",
+        "description": "Página web responsive con IA integrada para predicción de criptomonedas en tiempo real.",
+        "tech": ["React", "AI/ML", "API"],
+        "role": "Colaborador",
+        "href": ""
+      },
+      {
+        "category": "Marketing",
+        "title": "Gestión de Publicidad Meta",
+        "description": "Gestión y optimización de campañas publicitarias en Meta (Facebook, Instagram).",
+        "tech": ["Meta Business Manager", "Analytics", "Estrategia"],
+        "role": "Gerente Principal",
+        "href": ""
+      }
+    ]
+  },
+  "testimonials": {
+    "title": "Testimonios",
+    "intro": "Estos son algunos testimonios de clientes y colegas que han trabajado conmigo. Sus palabras reflejan mi compromiso con la excelencia y la satisfacción del cliente.",
+    "placeholder1": "Tu próximo testimonio aquí",
+    "placeholder1Hint": "Comparte tu experiencia trabajando conmigo",
+    "placeholder2": "Testimonios de clientes satisfechos",
+    "placeholder2Hint": "Próximamente más historias de éxito",
+    "ctaTitle": "¿Trabajaste conmigo?",
+    "ctaBody": "Me encantaría escuchar tu experiencia. Si has trabajado conmigo y deseas compartir tu testimonio, no dudes en contactarme.",
+    "ctaButton": "Compartir Testimonio",
+    "featured": {
+      "quote": "Felipe tiene habilidades técnicas fuertes en distintas áreas de la computación. Ha desarrollado proyectos de edición, bases de datos, programación, IA, diseño, producción musical, gestión de marca y publicidad en redes sociales. El desarrollo de tantos proyectos exitosos es debido a las fortalezas más grandes de Felipe, pues tiene una determinación férrea y un compromiso extraordinario. Además que es apasionado por lo que hace y maneja habilidades sociales excepcionales.",
+      "author": "Nombre del Cliente",
+      "role": "Empresa / Rol"
+    }
+  },
+  "contact": {
+    "title": "Contacto",
+    "subtitle": "¿Tienes un proyecto en mente o quieres saludar? ¡Contáctame!",
+    "form": {
+      "name": "Nombre Completo",
+      "namePh": "Tu nombre",
+      "email": "Correo Electrónico",
+      "emailPh": "tu@email.com",
+      "subject": "Asunto",
+      "subjectPh": "Asunto del mensaje",
+      "message": "Tu Mensaje",
+      "messagePh": "Cuéntame sobre tu proyecto o idea...",
+      "submit": "Enviar Mensaje",
+      "success": "¡Mensaje enviado exitosamente! Pronto te contactaré."
+    },
+    "info": {
+      "emailTitle": "Email",
+      "emailLead": "Para consultas generales y propuestas de proyectos:",
+      "phoneTitle": "Teléfono",
+      "phoneLead": "Disponible para llamadas y mensajes de WhatsApp:",
+      "locationTitle": "Ubicación",
+      "locationBody": "Pasto, Nariño - Colombia",
+      "locationHint": "Disponible para trabajo remoto y presencial",
+      "active": "Activo"
+    },
+    "socialTitle": "Sígueme en Redes Sociales",
+    "email": "felipe.nago898@gmail.com",
+    "phone": "+57 302 2777512",
+    "phoneHref": "+573022777512"
+  },
+  "languages": {
+    "es": "Español",
+    "en": "English",
+    "fr": "Français"
+  }
+}

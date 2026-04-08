@@ -1,0 +1,276 @@
+{
+  "meta": {
+    "title": "Felipe Narváez Gómez — Portfolio",
+    "description": "Développeur et designer créatif. Portfolio web, design et production audiovisuelle."
+  },
+  "nav": {
+    "home": "Accueil",
+    "about": "À propos",
+    "experience": "Expérience",
+    "projects": "Projets",
+    "testimonials": "Témoignages",
+    "contact": "Contact"
+  },
+  "hero": {
+    "name": "Felipe Narváez Gómez",
+    "role": "Développeur & Designer Créatif",
+    "videoPlaceholder": "Vidéo de présentation (30–45 s)",
+    "videoHint": "Placez vos fichiers dans /public/videos/intro-{locale}.mp4"
+  },
+  "about": {
+    "title": "À propos de moi",
+    "introTitle": "Mon parcours",
+    "intro1": "Bonjour ! Je suis Felipe Narváez Gómez, passionné par la technologie et le design, avec un parcours qui mêle créativité artistique et logique du développement logiciel.",
+    "intro2": "Mon parcours m’a mené de la production musicale et du design graphique à la création de contenu numérique et au développement d’applications innovantes.",
+    "intro3": "Aujourd’hui, je crée des solutions technologiques pour les entreprises : chaque ligne de code et chaque choix de design vise des expériences numériques intuitives à fort impact.",
+    "goalsTitle": "Objectifs & aspirations",
+    "goals1": "Je vise une spécialisation en développement frontend et design UX/UI, avec des projets qui permettent d’innover et d’avoir un impact positif sur les utilisateurs.",
+    "goals2": "Je souhaite évoluer dans un environnement dynamique tout en gardant un équilibre entre vie professionnelle et loisirs créatifs.",
+    "skillsTechTitle": "Compétences techniques",
+    "skillsSoftTitle": "Compétences comportementales",
+    "servicesTitle": "Services",
+    "services": {
+      "web": {
+        "title": "Design web & UX/UI",
+        "body": "Interfaces modernes, intuitives et responsives qui répondent aux objectifs fonctionnels et offrent une excellente expérience utilisateur."
+      },
+      "social": {
+        "title": "Réseaux sociaux",
+        "body": "Stratégie de contenu et gestion de communauté pour renforcer la présence digitale et l’engagement."
+      },
+      "automation": {
+        "title": "Automatisation",
+        "body": "Mise en place d’automatisation pour optimiser les flux de travail et augmenter la productivité."
+      }
+    },
+    "skillsTech": [
+      "HTML5 & CSS3",
+      "JavaScript",
+      "TypeScript",
+      "React",
+      "Next.js",
+      "Spring Boot",
+      "Flutter",
+      "Figma",
+      "n8n",
+      "Photoshop",
+      "Illustrator",
+      "Davinci Resolve"
+    ],
+    "skillsSoft": [
+      "Créativité",
+      "Communication",
+      "Détermination",
+      "Passion",
+      "Leadership",
+      "Travail d’équipe"
+    ]
+  },
+  "experience": {
+    "title": "Expérience académique & professionnelle",
+    "workTitle": "Expérience professionnelle",
+    "academicTitle": "Formation",
+    "certsTitle": "Certifications",
+    "badges": {
+      "current": "Actuel",
+      "versatility": "Polyvalence",
+      "initiative": "Initiative",
+      "teamwork": "Travail d’équipe",
+      "inProgress": "En cours",
+      "problemSolving": "Résolution de problèmes",
+      "collaboration": "Collaboration"
+    },
+    "work": [
+      {
+        "title": "Créateur de contenu audiovisuel",
+        "company": "Marque de barbier, Pasto",
+        "date": "Mars 2026 – Présent",
+        "body": "Conceptualisation, tournage et montage vidéo haute qualité pour les plateformes numériques.",
+        "bullets": [
+          "Production visuelle stratégique",
+          "Montage et post-production",
+          "Gestion des réseaux sociaux"
+        ],
+        "badges": ["current"]
+      },
+      {
+        "title": "Entrepreneur & freelance",
+        "company": "Projets multiples",
+        "body": "Développement et gestion de projets personnels dans plusieurs domaines :",
+        "bullets": [
+          "Vente — Gestion commerciale",
+          "Designer graphique — Identité visuelle",
+          "Créateur de contenu — Réseaux sociaux",
+          "Producteur musical — Composition et production"
+        ],
+        "badges": ["versatility", "initiative"]
+      },
+      {
+        "title": "Bénévole / équipe — Impact Fest",
+        "company": "Événement entrepreneuriat, Nariño",
+        "date": "Juin 2025",
+        "body": "Collaboration active à l’organisation et au déroulement d’Impact Fest.",
+        "badges": ["teamwork"]
+      }
+    ],
+    "academic": [
+      {
+        "title": "Ingénierie logicielle",
+        "company": "Universidad Cooperativa",
+        "body": "Formation complète en développement logiciel, algorithmes, structures de données et méthodes agiles.",
+        "bullets": [
+          "Programmation orientée objet",
+          "Bases de données et SQL",
+          "Développement web et mobile",
+          "Méthodes agiles (Scrum)"
+        ],
+        "badges": ["inProgress"]
+      },
+      {
+        "title": "Formation complémentaire",
+        "company": "Séminaires et ateliers",
+        "body": "Participation à des séminaires et ateliers sur les tendances du secteur."
+      },
+      {
+        "title": "Hackathon Vibe Coding",
+        "company": "Événement intensif de développement",
+        "date": "Décembre 2025 (2 jours)",
+        "body": "Participation intensive avec programmation et résolution de problèmes en équipe sous pression.",
+        "badges": ["problemSolving", "collaboration"]
+      }
+    ],
+    "certs": [
+      {
+        "title": "Séminaire d’ingénierie logicielle",
+        "body": "Mise à jour sur les bonnes pratiques et tendances actuelles."
+      },
+      {
+        "title": "Hackathon Vibe Coding 2025",
+        "body": "Participation à un événement intensif axé sur l’innovation et le travail d’équipe."
+      }
+    ]
+  },
+  "projects": {
+    "title": "Mes projets",
+    "subtitle": "Projets phares",
+    "roleLabel": "Rôle",
+    "view": "Voir",
+    "items": [
+      {
+        "category": "Frontend",
+        "title": "Lecteur musical",
+        "description": "Lecteur interactif et moderne avec interface intuitive et contrôles avancés.",
+        "tech": ["TypeScript", "React", "CSS"],
+        "role": "Développeur principal",
+        "href": "https://reproductor-musical-two.vercel.app"
+      },
+      {
+        "category": "Full Stack",
+        "title": "Gestionnaire de revenus et dépenses",
+        "description": "Application complète pour la gestion des finances personnelles et professionnelles.",
+        "tech": ["Spring Boot", "React", "MySQL"],
+        "role": "Développeur principal",
+        "href": "https://expenses-frontend-plum.vercel.app"
+      },
+      {
+        "category": "Backend",
+        "title": "Calculatrice multivariée",
+        "description": "Outil spécialisé pour calculs multivariés complexes.",
+        "tech": ["TypeScript", "Node.js", "API REST"],
+        "role": "Développeur backend",
+        "href": "https://backend-api-calculo-multivariado.vercel.app"
+      },
+      {
+        "category": "Frontend",
+        "title": "Landing page publicitaire",
+        "description": "Page optimisée pour campagnes à fort impact et conversion.",
+        "tech": ["JavaScript", "CSS", "HTML"],
+        "role": "Développeur frontend",
+        "href": ""
+      },
+      {
+        "category": "Production",
+        "title": "Portfolio vidéo",
+        "description": "Sélection de vidéos corporate — montage et post-production.",
+        "tech": ["Davinci Resolve", "After Effects", "Capcut"],
+        "role": "Producteur audiovisuel",
+        "href": ""
+      },
+      {
+        "category": "Design",
+        "title": "Identité de marque & marketing digital",
+        "description": "Projets de branding et stratégies marketing digital pour entreprises.",
+        "tech": ["Figma", "Photoshop", "Illustrator"],
+        "role": "Designer branding",
+        "href": ""
+      },
+      {
+        "category": "Full Stack + IA",
+        "title": "Prédiction de cryptomonnaies",
+        "description": "Application responsive avec IA intégrée pour prédiction en temps réel.",
+        "tech": ["React", "AI/ML", "API"],
+        "role": "Collaborateur",
+        "href": ""
+      },
+      {
+        "category": "Marketing",
+        "title": "Gestion publicitaire Meta",
+        "description": "Gestion et optimisation des campagnes Meta (Facebook, Instagram).",
+        "tech": ["Meta Business Manager", "Analytics", "Stratégie"],
+        "role": "Responsable principal",
+        "href": ""
+      }
+    ]
+  },
+  "testimonials": {
+    "title": "Témoignages",
+    "intro": "Retours de clients et collègues — engagement envers la qualité et la satisfaction.",
+    "placeholder1": "Votre prochain témoignage ici",
+    "placeholder1Hint": "Partagez votre expérience de collaboration",
+    "placeholder2": "Clients satisfaits",
+    "placeholder2Hint": "D’autres histoires à venir",
+    "ctaTitle": "Vous avez travaillé avec moi ?",
+    "ctaBody": "J’aimerais connaître votre retour. Contactez-moi pour partager un témoignage.",
+    "ctaButton": "Partager un témoignage",
+    "featured": {
+      "quote": "Felipe a de solides compétences techniques dans de nombreux domaines. Il a mené des projets en montage, bases de données, programmation, IA, design, musique, marque et publicité sociale. Son succès vient d’une détermination forte et d’un engagement extraordinaire. Il est passionné et possède d’excellentes compétences sociales.",
+      "author": "Nom du client",
+      "role": "Entreprise / Rôle"
+    }
+  },
+  "contact": {
+    "title": "Contact",
+    "subtitle": "Un projet en tête ou envie de dire bonjour ? Écrivez-moi !",
+    "form": {
+      "name": "Nom complet",
+      "namePh": "Votre nom",
+      "email": "E-mail",
+      "emailPh": "vous@email.com",
+      "subject": "Objet",
+      "subjectPh": "Objet du message",
+      "message": "Votre message",
+      "messagePh": "Parlez-moi de votre projet ou idée...",
+      "submit": "Envoyer",
+      "success": "Message envoyé ! Je vous répondrai bientôt."
+    },
+    "info": {
+      "emailTitle": "E-mail",
+      "emailLead": "Pour demandes générales et propositions :",
+      "phoneTitle": "Téléphone",
+      "phoneLead": "Appels et WhatsApp :",
+      "locationTitle": "Localisation",
+      "locationBody": "Pasto, Nariño — Colombie",
+      "locationHint": "Ouvert au télétravail et au présentiel",
+      "active": "Actif"
+    },
+    "socialTitle": "Réseaux sociaux",
+    "email": "felipe.nago898@gmail.com",
+    "phone": "+57 302 2777512",
+    "phoneHref": "+573022777512"
+  },
+  "languages": {
+    "es": "Español",
+    "en": "English",
+    "fr": "Français"
+  }
+}
