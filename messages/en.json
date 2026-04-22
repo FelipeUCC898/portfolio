@@ -186,7 +186,7 @@
         "description": "Landing page optimized for high-impact, conversion-focused campaigns.",
         "tech": ["JavaScript", "CSS", "HTML"],
         "role": "Frontend Developer",
-        "href": ""
+        "href": "https://clickinpasto.github.io"
       },
       {
         "category": "Production",
@@ -194,7 +194,7 @@
         "description": "Curated collection of corporate videos showcasing editing and post-production.",
         "tech": ["Davinci Resolve", "After Effects", "Capcut"],
         "role": "Audiovisual Producer",
-        "href": ""
+        "href": "https://drive.google.com/drive/folders/1avFDgJLzjQpyB2q9PW-fDSNDn3zsm8g3"
       },
       {
         "category": "Design",
@@ -202,7 +202,7 @@
         "description": "End-to-end branding and digital marketing strategy for businesses.",
         "tech": ["Figma", "Photoshop", "Illustrator"],
         "role": "Branding Designer",
-        "href": ""
+        "href": "https://www.instagram.com/sadrose_off/"
       },
       {
         "category": "Full Stack + AI",
@@ -210,7 +210,7 @@
         "description": "Responsive web app with integrated AI for real-time crypto prediction.",
         "tech": ["React", "AI/ML", "API"],
         "role": "Collaborator",
-        "href": ""
+        "href": "https://matheuruales.github.io/ecuaciones.html"
       },
       {
         "category": "Marketing",
@@ -224,19 +224,30 @@
   },
   "testimonials": {
     "title": "Testimonials",
-    "intro": "Feedback from clients and colleagues who have worked with me — reflecting commitment to quality and client satisfaction.",
-    "placeholder1": "Your next testimonial here",
-    "placeholder1Hint": "Share your experience working with me",
-    "placeholder2": "Satisfied clients",
-    "placeholder2Hint": "More success stories coming soon",
+    "intro": "What people say about working with me — reflecting commitment to quality and client satisfaction.",
     "ctaTitle": "Worked with me?",
     "ctaBody": "I'd love to hear from you. If you want to share a testimonial, get in touch.",
     "ctaButton": "Share a testimonial",
-    "featured": {
-      "quote": "Felipe has strong technical skills across many areas of computing. He has delivered projects in editing, databases, programming, AI, design, music production, brand management, and social advertising. His success comes from fierce determination and extraordinary commitment. He is passionate about what he does and has exceptional social skills.",
-      "author": "Client name",
-      "role": "Company / Role"
-    }
+    "items": [
+      {
+        "quote": "Felipe completely transformed our digital presence. His work on our brand design and social media strategy increased our engagement by 300%. He's creative, professional, and always meets deadlines.",
+        "author": "María Fernanda Torres",
+        "role": "CEO, Sadrose Brand",
+        "company": "Sadrose"
+      },
+      {
+        "quote": "Working with Felipe on our landing page development was exceptional. He not only delivered a high-quality product but also contributed innovative ideas that significantly improved our campaign conversion rates.",
+        "author": "Carlos Andrés Muñoz",
+        "role": "Marketing Director, Click Pasto",
+        "company": "Click Pasto"
+      },
+      {
+        "quote": "Felipe's audiovisual production is top-tier. The videos he created for our barbershop perfectly captured our brand essence. His attention to detail and technical ability are impressive.",
+        "author": "Diego Alejandro Ruiz",
+        "role": "Owner, Premium Barbershop",
+        "company": "Barbershop"
+      }
+    ]
   },
   "contact": {
     "title": "Contact",

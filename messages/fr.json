@@ -91,7 +91,9 @@
           "Montage et post-production",
           "Gestion des réseaux sociaux"
         ],
-        "badges": ["current"]
+        "badges": [
+          "current"
+        ]
       },
       {
         "title": "Entrepreneur & freelance",
@@ -103,14 +105,19 @@
           "Créateur de contenu — Réseaux sociaux",
           "Producteur musical — Composition et production"
         ],
-        "badges": ["versatility", "initiative"]
+        "badges": [
+          "versatility",
+          "initiative"
+        ]
       },
       {
         "title": "Bénévole / équipe — Impact Fest",
         "company": "Événement entrepreneuriat, Nariño",
         "date": "Juin 2025",
         "body": "Collaboration active à l’organisation et au déroulement d’Impact Fest.",
-        "badges": ["teamwork"]
+        "badges": [
+          "teamwork"
+        ]
       }
     ],
     "academic": [
@@ -124,7 +131,9 @@
           "Développement web et mobile",
           "Méthodes agiles (Scrum)"
         ],
-        "badges": ["inProgress"]
+        "badges": [
+          "inProgress"
+        ]
       },
       {
         "title": "Formation complémentaire",
@@ -136,7 +145,10 @@
         "company": "Événement intensif de développement",
         "date": "Décembre 2025 (2 jours)",
         "body": "Participation intensive avec programmation et résolution de problèmes en équipe sous pression.",
-        "badges": ["problemSolving", "collaboration"]
+        "badges": [
+          "problemSolving",
+          "collaboration"
+        ]
       }
     ],
     "certs": [
@@ -160,7 +172,11 @@
         "category": "Frontend",
         "title": "Lecteur musical",
         "description": "Lecteur interactif et moderne avec interface intuitive et contrôles avancés.",
-        "tech": ["TypeScript", "React", "CSS"],
+        "tech": [
+          "TypeScript",
+          "React",
+          "CSS"
+        ],
         "role": "Développeur principal",
         "href": "https://reproductor-musical-two.vercel.app"
       },
@@ -168,7 +184,11 @@
         "category": "Full Stack",
         "title": "Gestionnaire de revenus et dépenses",
         "description": "Application complète pour la gestion des finances personnelles et professionnelles.",
-        "tech": ["Spring Boot", "React", "MySQL"],
+        "tech": [
+          "Spring Boot",
+          "React",
+          "MySQL"
+        ],
         "role": "Développeur principal",
         "href": "https://expenses-frontend-plum.vercel.app"
       },
@@ -176,7 +196,11 @@
         "category": "Backend",
         "title": "Calculatrice multivariée",
         "description": "Outil spécialisé pour calculs multivariés complexes.",
-        "tech": ["TypeScript", "Node.js", "API REST"],
+        "tech": [
+          "TypeScript",
+          "Node.js",
+          "API REST"
+        ],
         "role": "Développeur backend",
         "href": "https://backend-api-calculo-multivariado.vercel.app"
       },
@@ -184,39 +208,59 @@
         "category": "Frontend",
         "title": "Landing page publicitaire",
         "description": "Page optimisée pour campagnes à fort impact et conversion.",
-        "tech": ["JavaScript", "CSS", "HTML"],
+        "tech": [
+          "JavaScript",
+          "CSS",
+          "HTML"
+        ],
         "role": "Développeur frontend",
-        "href": ""
+        "href": "https://clickinpasto.github.io"
       },
       {
         "category": "Production",
         "title": "Portfolio vidéo",
         "description": "Sélection de vidéos corporate — montage et post-production.",
-        "tech": ["Davinci Resolve", "After Effects", "Capcut"],
+        "tech": [
+          "Davinci Resolve",
+          "After Effects",
+          "Capcut"
+        ],
         "role": "Producteur audiovisuel",
-        "href": ""
+        "href": "https://drive.google.com/drive/folders/1avFDgJLzjQpyB2q9PW-fDSNDn3zsm8g3"
       },
       {
         "category": "Design",
         "title": "Identité de marque & marketing digital",
         "description": "Projets de branding et stratégies marketing digital pour entreprises.",
-        "tech": ["Figma", "Photoshop", "Illustrator"],
+        "tech": [
+          "Figma",
+          "Photoshop",
+          "Illustrator"
+        ],
         "role": "Designer branding",
-        "href": ""
+        "href": "https://www.instagram.com/sadrose_off/"
       },
       {
         "category": "Full Stack + IA",
         "title": "Prédiction de cryptomonnaies",
         "description": "Application responsive avec IA intégrée pour prédiction en temps réel.",
-        "tech": ["React", "AI/ML", "API"],
+        "tech": [
+          "React",
+          "AI/ML",
+          "API"
+        ],
         "role": "Collaborateur",
-        "href": ""
+        "href": "https://matheuruales.github.io/ecuaciones.html"
       },
       {
         "category": "Marketing",
         "title": "Gestion publicitaire Meta",
         "description": "Gestion et optimisation des campagnes Meta (Facebook, Instagram).",
-        "tech": ["Meta Business Manager", "Analytics", "Stratégie"],
+        "tech": [
+          "Meta Business Manager",
+          "Analytics",
+          "Stratégie"
+        ],
         "role": "Responsable principal",
         "href": ""
       }
@@ -225,18 +269,29 @@
   "testimonials": {
     "title": "Témoignages",
     "intro": "Retours de clients et collègues — engagement envers la qualité et la satisfaction.",
-    "placeholder1": "Votre prochain témoignage ici",
-    "placeholder1Hint": "Partagez votre expérience de collaboration",
-    "placeholder2": "Clients satisfaits",
-    "placeholder2Hint": "D’autres histoires à venir",
     "ctaTitle": "Vous avez travaillé avec moi ?",
-    "ctaBody": "J’aimerais connaître votre retour. Contactez-moi pour partager un témoignage.",
+    "ctaBody": "J'aimerais connaître votre retour. Contactez-moi pour partager un témoignage.",
     "ctaButton": "Partager un témoignage",
-    "featured": {
-      "quote": "Felipe a de solides compétences techniques dans de nombreux domaines. Il a mené des projets en montage, bases de données, programmation, IA, design, musique, marque et publicité sociale. Son succès vient d’une détermination forte et d’un engagement extraordinaire. Il est passionné et possède d’excellentes compétences sociales.",
-      "author": "Nom du client",
-      "role": "Entreprise / Rôle"
-    }
+    "items": [
+      {
+        "quote": "Felipe a complètement transformé notre présence digitale. Son travail sur le design de notre marque et notre stratégie de réseaux sociaux a augmenté notre engagement de 300%. Il est créatif, professionnel et respecte toujours les délais.",
+        "author": "María Fernanda Torres",
+        "role": "CEO, Sadrose Brand",
+        "company": "Sadrose"
+      },
+      {
+        "quote": "Travailler avec Felipe sur le développement de notre landing page a été exceptionnel. Il a non seulement livré un produit de haute qualité, mais a également apporté des idées innovantes qui ont considérablement amélioré le taux de conversion de nos campagnes.",
+        "author": "Carlos Andrés Muñoz",
+        "role": "Directeur Marketing, Click Pasto",
+        "company": "Click Pasto"
+      },
+      {
+        "quote": "La production audiovisuelle de Felipe est de premier ordre. Les vidéos qu'il a créées pour notre salon de coiffure ont parfaitement capturé l'essence de notre marque. Son souci du détail et ses capacités techniques sont impressionnants.",
+        "author": "Diego Alejandro Ruiz",
+        "role": "Propriétaire, Salon de Coiffure Premium",
+        "company": "Salon"
+      }
+    ]
   },
   "contact": {
     "title": "Contact",

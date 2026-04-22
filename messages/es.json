@@ -187,7 +187,7 @@
         "description": "Landing page optimizada para campañas publicitarias de alto impacto y conversión.",
         "tech": ["JavaScript", "CSS", "HTML"],
         "role": "Desarrollador Frontend",
-        "href": ""
+        "href": "https://clickinpasto.github.io"
       },
       {
         "category": "Producción",
@@ -195,7 +195,7 @@
         "description": "Colección curada de videos creados para empresas, mostrando habilidades en edición y postproducción.",
         "tech": ["Davinci Resolve", "After Effects", "Capcut"],
         "role": "Productor Audiovisual",
-        "href": ""
+        "href": "https://drive.google.com/drive/folders/1avFDgJLzjQpyB2q9PW-fDSNDn3zsm8g3"
       },
       {
         "category": "Diseño",
@@ -203,7 +203,7 @@
         "description": "Proyectos de branding integral y estrategias de marketing digital para negocios.",
         "tech": ["Figma", "Photoshop", "Illustrator"],
         "role": "Diseñador de Branding",
-        "href": ""
+        "href": "https://www.instagram.com/sadrose_off/"
       },
       {
         "category": "Full Stack + AI",
@@ -211,7 +211,7 @@
         "description": "Página web responsive con IA integrada para predicción de criptomonedas en tiempo real.",
         "tech": ["React", "AI/ML", "API"],
         "role": "Colaborador",
-        "href": ""
+        "href": "https://matheuruales.github.io/ecuaciones.html"
       },
       {
         "category": "Marketing",
@@ -225,19 +225,30 @@
   },
   "testimonials": {
     "title": "Testimonios",
-    "intro": "Estos son algunos testimonios de clientes y colegas que han trabajado conmigo. Sus palabras reflejan mi compromiso con la excelencia y la satisfacción del cliente.",
-    "placeholder1": "Tu próximo testimonio aquí",
-    "placeholder1Hint": "Comparte tu experiencia trabajando conmigo",
-    "placeholder2": "Testimonios de clientes satisfechos",
-    "placeholder2Hint": "Próximamente más historias de éxito",
+    "intro": "Lo que dicen quienes han trabajado conmigo. Sus palabras reflejan mi compromiso con la excelencia y la satisfacción del cliente.",
     "ctaTitle": "¿Trabajaste conmigo?",
     "ctaBody": "Me encantaría escuchar tu experiencia. Si has trabajado conmigo y deseas compartir tu testimonio, no dudes en contactarme.",
     "ctaButton": "Compartir Testimonio",
-    "featured": {
-      "quote": "Felipe tiene habilidades técnicas fuertes en distintas áreas de la computación. Ha desarrollado proyectos de edición, bases de datos, programación, IA, diseño, producción musical, gestión de marca y publicidad en redes sociales. El desarrollo de tantos proyectos exitosos es debido a las fortalezas más grandes de Felipe, pues tiene una determinación férrea y un compromiso extraordinario. Además que es apasionado por lo que hace y maneja habilidades sociales excepcionales.",
-      "author": "Nombre del Cliente",
-      "role": "Empresa / Rol"
-    }
+    "items": [
+      {
+        "quote": "Felipe transformó completamente nuestra presencia digital. Su trabajo en el diseño de nuestra marca y estrategia de redes sociales aumentó nuestro engagement en un 300%. Es creativo, profesional y siempre cumple con los plazos.",
+        "author": "María Fernanda Torres",
+        "role": "CEO, Sadrose Brand",
+        "company": "Sadrose"
+      },
+      {
+        "quote": "Trabajar con Felipe en el desarrollo de nuestra landing page fue excepcional. No solo entregó un producto de alta calidad, sino que también aportó ideas innovadoras que mejoraron significativamente la conversión de nuestras campañas.",
+        "author": "Carlos Andrés Muñoz",
+        "role": "Director de Marketing, Click Pasto",
+        "company": "Click Pasto"
+      },
+      {
+        "quote": "La producción audiovisual de Felipe es de primer nivel. Los videos que creó para nuestra barbería capturaron perfectamente la esencia de nuestra marca. Su ojo para el detalle y su capacidad técnica son impresionantes.",
+        "author": "Diego Alejandro Ruiz",
+        "role": "Propietario, Barbería Premium",
+        "company": "Barbería"
+      }
+    ]
   },
   "contact": {
     "title": "Contacto",
