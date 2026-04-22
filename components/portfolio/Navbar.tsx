@@ -24,8 +24,8 @@ export function Navbar({ active, onSelect, variant = "hero" }: Props) {
 
   const base =
     variant === "hero"
-      ? "flex flex-wrap gap-6 text-base md:gap-8"
-      : "flex flex-wrap gap-3 text-sm md:gap-5";
+      ? "flex flex-wrap gap-3 text-sm sm:gap-4 sm:text-base md:gap-8"
+      : "flex flex-wrap gap-2 text-xs sm:gap-3 sm:text-sm md:gap-5";
 
   return (
     <nav aria-label="Principal" className={base}>

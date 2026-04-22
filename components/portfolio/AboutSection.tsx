@@ -26,11 +26,11 @@ export function AboutSection({ setSection }: Props) {
   return (
     <SectionWithNav section="about" setSection={setSection}>
       <SectionPanel>
-        <h2 className="font-[family-name:var(--font-raleway)] text-3xl font-semibold text-[#05DFD7] md:text-4xl">
+        <h2 className="font-[family-name:var(--font-raleway)] text-2xl font-semibold text-[#05DFD7] sm:text-3xl md:text-4xl">
           {t("title")}
         </h2>
 
-        <div className="mt-8 grid gap-8 md:grid-cols-2 md:gap-10">
+        <div className="mt-6 grid gap-6 sm:mt-8 sm:gap-8 md:grid-cols-2 md:gap-10">
           <div>
             <h3 className="mb-3 text-lg font-semibold text-[#05DFD7]">
               {t("introTitle")}

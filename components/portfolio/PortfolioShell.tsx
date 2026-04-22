@@ -43,7 +43,7 @@ export function PortfolioShell() {
       <ThemeToggle currentSection={section} />
       <div className="relative h-screen w-screen overflow-hidden bg-zinc-100 text-zinc-900 dark:bg-[#040404] dark:text-white">
         <DynamicBackground />
-        <main className="relative z-10 flex h-full w-full items-center justify-center px-4 pb-6 pt-14 md:px-8 md:pt-6">
+        <main className="relative z-10 flex h-full w-full items-center justify-center px-3 pb-4 pt-12 sm:px-4 sm:pb-6 sm:pt-14 md:px-8 md:pt-6">
           <div ref={contentRef} key={section} className="w-full max-w-[1200px]">
             {section === "hero" ? (
               <HeroSection

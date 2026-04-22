@@ -130,25 +130,25 @@ export function HeroSection({ setSection, locale, setLocale }: Props) {
   const t = useTranslations("hero");
 
   return (
-    <div className="flex w-full max-w-6xl flex-col gap-10 md:flex-row md:items-center md:justify-between md:gap-14">
+    <div className="flex w-full max-w-6xl flex-col gap-6 sm:gap-8 md:flex-row md:items-center md:justify-between md:gap-14">
       <div className="flex-1 text-left">
-        <h1 className="font-[family-name:var(--font-raleway)] text-4xl font-bold text-[#05DFD7] md:text-5xl">
+        <h1 className="font-[family-name:var(--font-raleway)] text-3xl font-bold text-[#05DFD7] sm:text-4xl md:text-5xl">
           {t("name")}
         </h1>
-        <h2 className="mt-2 inline-block border-b-2 border-[#05DFD7] pb-2 text-lg text-zinc-600 dark:text-white/80 md:text-xl">
+        <h2 className="mt-2 inline-block border-b-2 border-[#05DFD7] pb-2 text-base text-zinc-600 dark:text-white/80 sm:text-lg md:text-xl">
           {t("role")}
         </h2>
 
-        <div className="mt-8">
+        <div className="mt-6 sm:mt-8">
           <Navbar active="hero" onSelect={setSection} variant="hero" />
         </div>
 
-        <SocialLinks className="mt-8" />
+        <SocialLinks className="mt-6 sm:mt-8" />
       </div>
 
-      <div className="flex w-full flex-1 flex-col items-stretch gap-4">
+      <div className="flex w-full flex-1 flex-col items-stretch gap-3 sm:gap-4">
         <HeroVideoEmbed key={locale} locale={locale} />
-        <div className="flex items-center gap-3">
+        <div className="flex flex-wrap items-center gap-2 sm:gap-3">
           <LanguageSelector locale={locale} onChange={setLocale} />
           <a
             href="/CV/CV_felipe_narvaez.pdf"
