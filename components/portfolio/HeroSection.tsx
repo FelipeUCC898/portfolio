@@ -3,7 +3,7 @@
 import { faCirclePlay } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useTranslations } from "next-intl";
-import { useState } from "react";
+import { useEffect, useRef, useState } from "react";
 
 import type { Locale, SectionId } from "@/types/section";
 
@@ -20,20 +20,97 @@ type Props = {
 function HeroVideoEmbed({ locale }: { locale: Locale }) {
   const t = useTranslations("hero");
   const [videoFailed, setVideoFailed] = useState(false);
-  const src = `/videos/intro-${locale}.mp4`;
+  const videoRef = useRef<HTMLVideoElement>(null);
+  const audioRef = useRef<HTMLAudioElement>(null);
+
+  const audioMap: Record<Locale, string> = {
+    es: "/audios/audio_español.WAV",
+    en: "/audios/audio_ingles.WAV",
+    fr: "/audios/audio_frances.WAV",
+  };
+
+  useEffect(() => {
+    const video = videoRef.current;
+    const audio = audioRef.current;
+
+    if (!video || !audio) return;
+
+    const syncAudio = () => {
+      audio.currentTime = video.currentTime;
+    };
+
+    const handlePlay = () => {
+      audio.play().catch(console.error);
+    };
+
+    const handlePause = () => {
+      audio.pause();
+    };
+
+    const handleSeeking = () => {
+      audio.currentTime = video.currentTime;
+    };
+
+    video.addEventListener("play", handlePlay);
+    video.addEventListener("pause", handlePause);
+    video.addEventListener("seeking", handleSeeking);
+    video.addEventListener("timeupdate", syncAudio);
+
+    return () => {
+      video.removeEventListener("play", handlePlay);
+      video.removeEventListener("pause", handlePause);
+      video.removeEventListener("seeking", handleSeeking);
+      video.removeEventListener("timeupdate", syncAudio);
+    };
+  }, []);
+
+  useEffect(() => {
+    const video = videoRef.current;
+    const audio = audioRef.current;
+
+    if (!video || !audio) return;
+
+    const wasPlaying = !video.paused;
+    const currentTime = video.currentTime;
+
+    if (wasPlaying) {
+      video.pause();
+    }
+
+    audio.src = audioMap[locale];
+    audio.load();
+
+    audio.addEventListener(
+      "loadeddata",
+      () => {
+        audio.currentTime = currentTime;
+        if (wasPlaying) {
+          video.play().catch(console.error);
+        }
+      },
+      { once: true }
+    );
+  }, [locale]);
 
   return (
     <div className="relative aspect-video w-full overflow-hidden rounded-lg border-2 border-[#05DFD7] bg-gradient-to-br from-zinc-200 to-teal-50 dark:from-[#1a1a2e] dark:to-[#16213e]">
       {!videoFailed ? (
-        <video
-          className="h-full w-full object-cover"
-          controls
-          playsInline
-          preload="metadata"
-          onError={() => setVideoFailed(true)}
-        >
-          <source src={src} type="video/mp4" />
-        </video>
+        <>
+          <video
+            ref={videoRef}
+            className="h-full w-full object-cover"
+            controls
+            playsInline
+            preload="metadata"
+            muted
+            onError={() => setVideoFailed(true)}
+          >
+            <source src="/videos/video_peso_reducido_sin_audio.mp4" type="video/mp4" />
+          </video>
+          <audio ref={audioRef} preload="metadata">
+            <source src={audioMap[locale]} type="audio/wav" />
+          </audio>
+        </>
       ) : (
         <div className="flex h-full min-h-[180px] flex-col items-center justify-center gap-3 px-4 text-center">
           <FontAwesomeIcon
