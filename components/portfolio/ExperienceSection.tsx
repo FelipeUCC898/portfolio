@@ -19,7 +19,6 @@ const CERT_IMAGES: Record<string, string> = {
   "Software Engineering Seminar": "/img/certificado_seminario.jpeg",
   "Vibe Coding Hackathon 2025": "/img/hackaton_prueba.jpeg",
   "Séminaire d'ingénierie logicielle": "/img/certificado_seminario.jpeg",
-  "Hackathon Vibe Coding 2025": "/img/hackaton_prueba.jpeg",
 };
 
 export function ExperienceSection({ setSection }: Props) {
