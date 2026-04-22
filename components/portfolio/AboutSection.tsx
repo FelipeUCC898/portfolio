@@ -45,7 +45,7 @@ export function AboutSection({ setSection }: Props) {
           </div>
           <div className="flex aspect-square items-center justify-center overflow-hidden rounded-lg border-2 border-[#05DFD7]">
             <img 
-              src="/img/imagen_portfolio.jpeg" 
+              src="/img/imagen_portafolio_2.jpeg" 
               alt="Felipe Narváez Gómez" 
               className="h-full w-full object-cover"
             />
