@@ -38,7 +38,7 @@ export function ContactSection({ setSection }: Props) {
         <h2 className="font-[family-name:var(--font-raleway)] text-3xl font-semibold text-[#05DFD7] md:text-4xl">
           {t("title")}
         </h2>
-        <p className="mt-2 text-sm text-zinc-600 dark:text-white/70">{t("subtitle")}</p>
+        <p className="mt-2 text-sm text-zinc-800 dark:text-white/70">{t("subtitle")}</p>
 
         <div className="mt-8 grid gap-10 lg:grid-cols-2 lg:gap-12">
           <ContactForm />
@@ -49,14 +49,14 @@ export function ContactSection({ setSection }: Props) {
                 <FontAwesomeIcon icon={faEnvelope} className="text-base" />
               </div>
               <h4 className="text-base font-semibold text-[#05DFD7]">{t("info.emailTitle")}</h4>
-              <p className="mt-1 text-xs text-zinc-700 dark:text-white/80">{t("info.emailLead")}</p>
+              <p className="mt-1 text-xs text-zinc-800 dark:text-white/80">{t("info.emailLead")}</p>
               <a
                 href={`mailto:${t("email")}`}
                 className="mt-2 inline-block text-sm text-[#05DFD7] hover:text-[#0D7377]"
               >
                 {t("email")}
               </a>
-              <p className="mt-2 text-xs text-zinc-500 dark:text-white/50">
+              <p className="mt-2 text-xs text-zinc-700 dark:text-white/50">
                 {t("info.active")}
               </p>
             </div>
@@ -66,14 +66,14 @@ export function ContactSection({ setSection }: Props) {
                 <FontAwesomeIcon icon={faPhone} className="text-base" />
               </div>
               <h4 className="text-base font-semibold text-[#05DFD7]">{t("info.phoneTitle")}</h4>
-              <p className="mt-1 text-xs text-zinc-700 dark:text-white/80">{t("info.phoneLead")}</p>
+              <p className="mt-1 text-xs text-zinc-800 dark:text-white/80">{t("info.phoneLead")}</p>
               <a
                 href={`tel:${t("phoneHref")}`}
                 className="mt-2 inline-block text-sm text-[#05DFD7] hover:text-[#0D7377]"
               >
                 {t("phone")}
               </a>
-              <p className="mt-2 text-xs text-zinc-500 dark:text-white/50">
+              <p className="mt-2 text-xs text-zinc-700 dark:text-white/50">
                 {t("info.active")}
               </p>
             </div>
@@ -83,8 +83,8 @@ export function ContactSection({ setSection }: Props) {
                 <FontAwesomeIcon icon={faMapMarkerAlt} className="text-base" />
               </div>
               <h4 className="text-base font-semibold text-[#05DFD7]">{t("info.locationTitle")}</h4>
-              <p className="mt-1 text-xs text-zinc-700 dark:text-white/80">{t("info.locationBody")}</p>
-              <p className="mt-2 text-xs text-zinc-500 dark:text-white/50">{t("info.locationHint")}</p>
+              <p className="mt-1 text-xs text-zinc-800 dark:text-white/80">{t("info.locationBody")}</p>
+              <p className="mt-2 text-xs text-zinc-700 dark:text-white/50">{t("info.locationHint")}</p>
             </div>
 
             <div>

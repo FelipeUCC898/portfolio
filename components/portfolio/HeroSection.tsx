@@ -8,11 +8,13 @@ import { useEffect, useRef, useState } from "react";
 import type { Locale, SectionId } from "@/types/section";
 
 import { LanguageSelector } from "./LanguageSelector";
+import { MobileMenu } from "./MobileMenu";
 import { Navbar } from "./Navbar";
 import { SocialLinks } from "./SocialLinks";
 
 type Props = {
   setSection: (id: SectionId) => void;
+  currentSection: SectionId;
   locale: Locale;
   setLocale: (locale: Locale) => void;
 };
@@ -118,15 +120,15 @@ function HeroVideoEmbed({ locale }: { locale: Locale }) {
             className="text-5xl text-[#05DFD7]"
             aria-hidden
           />
-          <p className="text-sm text-zinc-600 dark:text-white/80">{t("videoPlaceholder")}</p>
-          <p className="text-xs text-zinc-400 dark:text-white/40">{t("videoHint")}</p>
+          <p className="text-sm text-zinc-800 dark:text-white/80">{t("videoPlaceholder")}</p>
+          <p className="text-xs text-zinc-600 dark:text-white/40">{t("videoHint")}</p>
         </div>
       )}
     </div>
   );
 }
 
-export function HeroSection({ setSection, locale, setLocale }: Props) {
+export function HeroSection({ setSection, currentSection, locale, setLocale }: Props) {
   const t = useTranslations("hero");
 
   return (
@@ -135,12 +137,13 @@ export function HeroSection({ setSection, locale, setLocale }: Props) {
         <h1 className="font-[family-name:var(--font-raleway)] text-3xl font-bold text-[#05DFD7] sm:text-4xl md:text-5xl">
           {t("name")}
         </h1>
-        <h2 className="mt-2 inline-block border-b-2 border-[#05DFD7] pb-2 text-base text-zinc-600 dark:text-white/80 sm:text-lg md:text-xl">
+        <h2 className="mt-2 inline-block border-b-2 border-[#05DFD7] pb-2 text-base text-zinc-800 dark:text-white/80 sm:text-lg md:text-xl">
           {t("role")}
         </h2>
 
-        <div className="mt-6 sm:mt-8">
+        <div className="mt-6 flex items-center gap-4 sm:mt-8">
           <Navbar active="hero" onSelect={setSection} variant="hero" />
+          <MobileMenu currentSection={currentSection} onSelect={setSection} />
         </div>
 
         <SocialLinks className="mt-6 sm:mt-8" />

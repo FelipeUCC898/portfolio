@@ -38,7 +38,7 @@ export function ContactForm() {
             required
             autoComplete="name"
             placeholder={t("namePh")}
-            className="rounded-md border border-[#05DFD7] bg-zinc-100 px-3 py-2.5 text-sm text-zinc-900 placeholder:text-zinc-400 focus:border-[#0D7377] focus:bg-[rgba(5,223,215,0.08)] focus:outline-none focus:ring-2 focus:ring-[#05DFD7]/40 dark:bg-white/5 dark:text-white dark:placeholder:text-white/40 dark:focus:bg-[rgba(5,223,215,0.1)]"
+            className="rounded-md border border-[#05DFD7] bg-zinc-100 px-3 py-2.5 text-sm text-zinc-900 placeholder:text-zinc-700 focus:border-[#0D7377] focus:bg-[rgba(5,223,215,0.08)] focus:outline-none focus:ring-2 focus:ring-[#05DFD7]/40 dark:bg-white/5 dark:text-white dark:placeholder:text-white/40 dark:focus:bg-[rgba(5,223,215,0.1)]"
           />
         </div>
         <div className="flex flex-col gap-1">
@@ -52,7 +52,7 @@ export function ContactForm() {
             required
             autoComplete="email"
             placeholder={t("emailPh")}
-            className="rounded-md border border-[#05DFD7] bg-zinc-100 px-3 py-2.5 text-sm text-zinc-900 placeholder:text-zinc-400 focus:border-[#0D7377] focus:bg-[rgba(5,223,215,0.08)] focus:outline-none focus:ring-2 focus:ring-[#05DFD7]/40 dark:bg-white/5 dark:text-white dark:placeholder:text-white/40 dark:focus:bg-[rgba(5,223,215,0.1)]"
+            className="rounded-md border border-[#05DFD7] bg-zinc-100 px-3 py-2.5 text-sm text-zinc-900 placeholder:text-zinc-700 focus:border-[#0D7377] focus:bg-[rgba(5,223,215,0.08)] focus:outline-none focus:ring-2 focus:ring-[#05DFD7]/40 dark:bg-white/5 dark:text-white dark:placeholder:text-white/40 dark:focus:bg-[rgba(5,223,215,0.1)]"
           />
         </div>
         <div className="flex flex-col gap-1">
@@ -64,7 +64,7 @@ export function ContactForm() {
             name="subject"
             required
             placeholder={t("subjectPh")}
-            className="rounded-md border border-[#05DFD7] bg-zinc-100 px-3 py-2.5 text-sm text-zinc-900 placeholder:text-zinc-400 focus:border-[#0D7377] focus:bg-[rgba(5,223,215,0.08)] focus:outline-none focus:ring-2 focus:ring-[#05DFD7]/40 dark:bg-white/5 dark:text-white dark:placeholder:text-white/40 dark:focus:bg-[rgba(5,223,215,0.1)]"
+            className="rounded-md border border-[#05DFD7] bg-zinc-100 px-3 py-2.5 text-sm text-zinc-900 placeholder:text-zinc-700 focus:border-[#0D7377] focus:bg-[rgba(5,223,215,0.08)] focus:outline-none focus:ring-2 focus:ring-[#05DFD7]/40 dark:bg-white/5 dark:text-white dark:placeholder:text-white/40 dark:focus:bg-[rgba(5,223,215,0.1)]"
           />
         </div>
         <div className="flex flex-col gap-1">
@@ -77,7 +77,7 @@ export function ContactForm() {
             required
             rows={5}
             placeholder={t("messagePh")}
-            className="min-h-[120px] resize-y rounded-md border border-[#05DFD7] bg-zinc-100 px-3 py-2.5 text-sm text-zinc-900 placeholder:text-zinc-400 focus:border-[#0D7377] focus:bg-[rgba(5,223,215,0.08)] focus:outline-none focus:ring-2 focus:ring-[#05DFD7]/40 dark:bg-white/5 dark:text-white dark:placeholder:text-white/40 dark:focus:bg-[rgba(5,223,215,0.1)]"
+            className="min-h-[120px] resize-y rounded-md border border-[#05DFD7] bg-zinc-100 px-3 py-2.5 text-sm text-zinc-900 placeholder:text-zinc-700 focus:border-[#0D7377] focus:bg-[rgba(5,223,215,0.08)] focus:outline-none focus:ring-2 focus:ring-[#05DFD7]/40 dark:bg-white/5 dark:text-white dark:placeholder:text-white/40 dark:focus:bg-[rgba(5,223,215,0.1)]"
           />
         </div>
         <button

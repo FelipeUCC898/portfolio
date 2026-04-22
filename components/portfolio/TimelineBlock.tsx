@@ -44,7 +44,7 @@ export function TimelineBlock({ items }: Props) {
             <p className="text-sm text-[rgba(5,223,215,0.75)]">{item.company}</p>
           ) : null}
           {item.date ? (
-            <p className="mt-1 text-xs italic text-zinc-500 dark:text-white/60">{item.date}</p>
+            <p className="mt-1 text-xs italic text-zinc-700 dark:text-white/60">{item.date}</p>
           ) : null}
           <p className="mt-2 text-sm leading-relaxed text-zinc-700 dark:text-white/80">{item.body}</p>
           {item.bullets?.length ? (

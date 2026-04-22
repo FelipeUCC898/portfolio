@@ -50,6 +50,7 @@ export function PortfolioShell() {
             {section === "hero" ? (
               <HeroSection
                 setSection={setSection}
+                currentSection={section}
                 locale={locale}
                 setLocale={setLocale}
               />

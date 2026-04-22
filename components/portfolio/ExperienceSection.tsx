@@ -73,7 +73,7 @@ export function ExperienceSection({ setSection }: Props) {
                   <h5 className="text-base font-semibold text-[#05DFD7]">
                     {c.title}
                   </h5>
-                  <p className="mt-2 text-sm leading-relaxed text-zinc-600 dark:text-white/70">{c.body}</p>
+                  <p className="mt-2 text-sm leading-relaxed text-zinc-800 dark:text-white/70">{c.body}</p>
                 </div>
               </div>
             );

@@ -57,7 +57,7 @@ export function TestimonialsSection({ setSection }: Props) {
                   <FontAwesomeIcon key={i} icon={faStar} className="text-sm" />
                 ))}
               </div>
-              <p className="relative z-[1] flex-1 text-sm italic leading-relaxed text-zinc-700 dark:text-white/85">
+              <p className="relative z-[1] flex-1 text-sm italic leading-relaxed text-zinc-800 dark:text-white/85">
                 {testimonial.quote}
               </p>
               <div className="mt-5 flex items-center gap-3 border-t border-[rgba(5,223,215,0.3)] pt-5">
@@ -79,7 +79,7 @@ export function TestimonialsSection({ setSection }: Props) {
           <h3 className="font-[family-name:var(--font-raleway)] text-lg text-[#05DFD7]">
             {t("ctaTitle")}
           </h3>
-          <p className="mt-2 text-sm text-zinc-700 dark:text-white/80">{t("ctaBody")}</p>
+          <p className="mt-2 text-sm text-zinc-800 dark:text-white/80">{t("ctaBody")}</p>
           <button
             type="button"
             onClick={() => setSection("contact")}

@@ -65,7 +65,7 @@ export function ProjectCard({ project, icon, imageSrc }: Props) {
               <FontAwesomeIcon icon={faArrowRight} className="h-3 w-3" />
             </a>
           ) : (
-            <span className="text-xs text-zinc-400 dark:text-white/40">—</span>
+            <span className="text-xs text-zinc-600 dark:text-white/40">—</span>
           )}
         </div>
       </div>
