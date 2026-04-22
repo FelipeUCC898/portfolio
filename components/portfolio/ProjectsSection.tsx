@@ -31,6 +31,18 @@ const PROJECT_ICONS: IconDefinition[] = [
   faBullhorn,
 ];
 
+const PROJECT_IMAGES: Record<string, string> = {
+  "Reproductor Musical": "/projects/reproductor_musical.jpeg",
+  "Music Player": "/projects/reproductor_musical.jpeg",
+  "Lecteur musical": "/projects/reproductor_musical.jpeg",
+  "Gestor de Gastos e Ingresos": "/projects/control_gastos.jpeg",
+  "Income & Expense Manager": "/projects/control_gastos.jpeg",
+  "Gestionnaire de revenus et dépenses": "/projects/control_gastos.jpeg",
+  "Calculadora Multivariada": "/projects/calculadora_3d.jpeg",
+  "Multivariate Calculator": "/projects/calculadora_3d.jpeg",
+  "Calculatrice multivariée": "/projects/calculadora_3d.jpeg",
+};
+
 type Props = {
   setSection: (id: SectionId) => void;
 };
@@ -54,6 +66,7 @@ export function ProjectsSection({ setSection }: Props) {
               key={project.title}
               project={project}
               icon={PROJECT_ICONS[i] ?? faRocket}
+              imageSrc={PROJECT_IMAGES[project.title]}
             />
           ))}
         </div>

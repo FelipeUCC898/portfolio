@@ -10,16 +10,27 @@ import type { ProjectItem } from "@/types/project";
 type Props = {
   project: ProjectItem;
   icon: IconDefinition;
+  imageSrc?: string;
 };
 
-export function ProjectCard({ project, icon }: Props) {
+export function ProjectCard({ project, icon, imageSrc }: Props) {
   const t = useTranslations("projects");
   const hasLink = Boolean(project.href && project.href !== "#");
 
   return (
     <article className="flex h-full flex-col overflow-hidden rounded-lg border border-[#05DFD7]/80 bg-[rgba(5,223,215,0.08)] transition hover:-translate-y-2 hover:bg-[rgba(5,223,215,0.14)] hover:shadow-[0_15px_40px_rgba(5,223,215,0.22)] dark:bg-[rgba(5,223,215,0.05)]">
-      <div className="flex h-[120px] items-center justify-center border-b border-[#05DFD7] bg-gradient-to-br from-[rgba(5,223,215,0.2)] to-[rgba(5,223,215,0.05)] text-4xl text-[#05DFD7]">
-        <FontAwesomeIcon icon={icon} aria-hidden />
+      <div className="relative h-[140px] overflow-hidden border-b border-[#05DFD7] bg-gradient-to-br from-[rgba(5,223,215,0.2)] to-[rgba(5,223,215,0.05)]">
+        {imageSrc ? (
+          <img
+            src={imageSrc}
+            alt={project.title}
+            className="h-full w-full object-cover"
+          />
+        ) : (
+          <div className="flex h-full items-center justify-center text-5xl text-[#05DFD7]">
+            <FontAwesomeIcon icon={icon} aria-hidden />
+          </div>
+        )}
       </div>
       <div className="flex flex-1 flex-col p-5">
         <span className="mb-2 inline-block w-fit rounded bg-[rgba(5,223,215,0.12)] px-2 py-0.5 text-xs font-medium text-[#05DFD7]">
