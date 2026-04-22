@@ -105,7 +105,7 @@ function HeroVideoEmbed({ locale }: { locale: Locale }) {
             muted
             onError={() => setVideoFailed(true)}
           >
-            <source src="/videos/video_peso_reducido_sin_audio.mp4" type="video/mp4" />
+            <source src="/videos/video_peso_reducido_sin_audio.mp4#t=13" type="video/mp4" />
           </video>
           <audio ref={audioRef} preload="metadata">
             <source src={audioMap[locale]} type="audio/wav" />

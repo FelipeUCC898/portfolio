@@ -1,7 +1,5 @@
 "use client";
 
-import { faCertificate } from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useTranslations } from "next-intl";
 
 import type { ExperienceEntry } from "@/types/experience";
@@ -13,6 +11,15 @@ import { TimelineBlock } from "./TimelineBlock";
 
 type Props = {
   setSection: (id: SectionId) => void;
+};
+
+const CERT_IMAGES: Record<string, string> = {
+  "Seminario de Ingeniería de Software": "/img/certificado_seminario.jpeg",
+  "Hackathon Vibe Coding 2025": "/img/hackaton_prueba.jpeg",
+  "Software Engineering Seminar": "/img/certificado_seminario.jpeg",
+  "Vibe Coding Hackathon 2025": "/img/hackaton_prueba.jpeg",
+  "Séminaire d'ingénierie logicielle": "/img/certificado_seminario.jpeg",
+  "Hackathon Vibe Coding 2025": "/img/hackaton_prueba.jpeg",
 };
 
 export function ExperienceSection({ setSection }: Props) {
@@ -46,19 +53,32 @@ export function ExperienceSection({ setSection }: Props) {
         <h3 className="mt-10 font-[family-name:var(--font-raleway)] text-xl text-zinc-900 dark:text-white">
           {t("certsTitle")}
         </h3>
-        <div className="mt-4 space-y-3">
-          {certs.map((c) => (
-            <div
-              key={c.title}
-              className="rounded border border-[#05DFD7]/50 bg-[rgba(5,223,215,0.05)] p-4 transition hover:translate-x-1 hover:bg-[rgba(5,223,215,0.12)]"
-            >
-              <h5 className="flex items-center gap-2 text-sm font-semibold text-[#05DFD7]">
-                <FontAwesomeIcon icon={faCertificate} />
-                {c.title}
-              </h5>
-              <p className="mt-1 text-sm text-zinc-600 dark:text-white/70">{c.body}</p>
-            </div>
-          ))}
+        <div className="mt-4 grid gap-4 md:grid-cols-2">
+          {certs.map((c) => {
+            const imageSrc = CERT_IMAGES[c.title];
+            return (
+              <div
+                key={c.title}
+                className="group overflow-hidden rounded-lg border-2 border-[#05DFD7]/50 bg-[rgba(5,223,215,0.05)] transition hover:border-[#05DFD7] hover:bg-[rgba(5,223,215,0.12)]"
+              >
+                {imageSrc && (
+                  <div className="aspect-video w-full overflow-hidden">
+                    <img
+                      src={imageSrc}
+                      alt={c.title}
+                      className="h-full w-full object-cover transition-transform duration-300 group-hover:scale-105"
+                    />
+                  </div>
+                )}
+                <div className="p-4">
+                  <h5 className="text-base font-semibold text-[#05DFD7]">
+                    {c.title}
+                  </h5>
+                  <p className="mt-2 text-sm leading-relaxed text-zinc-600 dark:text-white/70">{c.body}</p>
+                </div>
+              </div>
+            );
+          })}
         </div>
       </SectionPanel>
     </SectionWithNav>
