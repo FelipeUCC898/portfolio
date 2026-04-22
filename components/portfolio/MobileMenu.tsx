@@ -3,7 +3,9 @@
 import { faBars, faTimes } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useTranslations } from "next-intl";
-import { useState } from "react";
+import { useCallback, useState } from "react";
+
+import { useEscapeKey } from "@/lib/hooks/useEscapeKey";
 
 import type { SectionId } from "@/types/section";
 
@@ -24,6 +26,9 @@ type Props = {
 export function MobileMenu({ currentSection, onSelect }: Props) {
   const [isOpen, setIsOpen] = useState(false);
   const t = useTranslations("nav");
+
+  const closeMenu = useCallback(() => setIsOpen(false), []);
+  useEscapeKey(closeMenu, isOpen);
 
   const handleSelect = (id: SectionId) => {
     onSelect(id);
