@@ -17,6 +17,29 @@ export const metadata: Metadata = {
   title: "Felipe Narváez Gómez — Portafolio",
   description:
     "Desarrollador y diseñador creativo. Proyectos web, diseño UX/UI y producción audiovisual.",
+  keywords: [
+    "Felipe Narváez",
+    "portfolio",
+    "desarrollador web",
+    "diseño UX/UI",
+    "Next.js",
+    "React",
+    "Colombia",
+  ],
+  authors: [{ name: "Felipe Narváez Gómez" }],
+  openGraph: {
+    title: "Felipe Narváez Gómez — Portafolio",
+    description:
+      "Desarrollador y diseñador creativo. Proyectos web, diseño UX/UI y producción audiovisual.",
+    type: "website",
+    locale: "es_CO",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Felipe Narváez Gómez — Portafolio",
+    description:
+      "Desarrollador y diseñador creativo. Proyectos web, diseño UX/UI y producción audiovisual.",
+  },
 };
 
 export default function RootLayout({
