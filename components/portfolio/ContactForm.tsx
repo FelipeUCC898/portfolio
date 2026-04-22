@@ -1,7 +1,5 @@
 "use client";
 
-import { faPaperPlane } from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useTranslations } from "next-intl";
 import { useState } from "react";
 
@@ -84,9 +82,8 @@ export function ContactForm() {
         </div>
         <button
           type="submit"
-          className="mt-2 flex items-center justify-center gap-2 rounded-md bg-[#05DFD7] py-3 text-sm font-semibold text-zinc-900 transition hover:bg-[#0D7377] hover:shadow-[0_10px_25px_rgba(5,223,215,0.3)] dark:text-[#040404]"
+          className="mt-2 flex items-center justify-center gap-2 rounded-md bg-[#05DFD7] px-6 py-2.5 text-sm font-semibold text-zinc-900 transition hover:bg-[#0D7377] hover:shadow-[0_10px_25px_rgba(5,223,215,0.3)] dark:text-[#040404]"
         >
-          <FontAwesomeIcon icon={faPaperPlane} className="text-sm" />
           {t("submit")}
         </button>
       </form>
