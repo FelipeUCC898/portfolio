@@ -103,8 +103,14 @@ export function AboutSection({ setSection }: Props) {
         </h3>
         <div className="mt-4 grid gap-4 md:grid-cols-3">
           <div className="rounded border border-[#05DFD7]/60 bg-[rgba(5,223,215,0.05)] p-5 transition hover:-translate-y-1 hover:bg-[rgba(5,223,215,0.12)]">
-            <h4 className="mb-2 flex items-center gap-2 text-base text-[#05DFD7]">
-              <FontAwesomeIcon icon={faPalette} className="text-sm" />
+            <div className="mb-4 flex h-24 items-center justify-center overflow-hidden rounded">
+              <img 
+                src="/img_2/diseño_ui.jpg" 
+                alt="Diseño Web & UX/UI"
+                className="h-full w-full object-cover"
+              />
+            </div>
+            <h4 className="mb-2 text-base text-[#05DFD7]">
               {t("services.web.title")}
             </h4>
             <p className="text-sm leading-relaxed text-justify text-zinc-700 dark:text-white/80">
@@ -112,8 +118,14 @@ export function AboutSection({ setSection }: Props) {
             </p>
           </div>
           <div className="rounded border border-[#05DFD7]/60 bg-[rgba(5,223,215,0.05)] p-5 transition hover:-translate-y-1 hover:bg-[rgba(5,223,215,0.12)]">
-            <h4 className="mb-2 flex items-center gap-2 text-base text-[#05DFD7]">
-              <FontAwesomeIcon icon={faShareAlt} className="text-sm" />
+            <div className="mb-4 flex h-24 items-center justify-center overflow-hidden rounded">
+              <img 
+                src="/img_2/social_media.jpg" 
+                alt="Redes Sociales"
+                className="h-full w-full object-cover"
+              />
+            </div>
+            <h4 className="mb-2 text-base text-[#05DFD7]">
               {t("services.social.title")}
             </h4>
             <p className="text-sm leading-relaxed text-justify text-zinc-700 dark:text-white/80">
@@ -121,8 +133,14 @@ export function AboutSection({ setSection }: Props) {
             </p>
           </div>
           <div className="rounded border border-[#05DFD7]/60 bg-[rgba(5,223,215,0.05)] p-5 transition hover:-translate-y-1 hover:bg-[rgba(5,223,215,0.12)]">
-            <h4 className="mb-2 flex items-center gap-2 text-base text-[#05DFD7]">
-              <FontAwesomeIcon icon={faCogs} className="text-sm" />
+            <div className="mb-4 flex h-24 items-center justify-center overflow-hidden rounded">
+              <img 
+                src="/img_2/automatizacion_img.jpg" 
+                alt="Automatización"
+                className="h-full w-full object-cover"
+              />
+            </div>
+            <h4 className="mb-2 text-base text-[#05DFD7]">
               {t("services.automation.title")}
             </h4>
             <p className="text-sm leading-relaxed text-justify text-zinc-700 dark:text-white/80">
