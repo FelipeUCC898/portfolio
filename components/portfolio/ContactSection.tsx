@@ -1,7 +1,6 @@
 "use client";
 
 import {
-  faCheckCircle,
   faEnvelope,
   faMapMarkerAlt,
   faPhone,
@@ -10,7 +9,6 @@ import {
   faGithub,
   faInstagram,
   faLinkedin,
-  faTwitter,
 } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useTranslations } from "next-intl";
@@ -29,7 +27,6 @@ const SOCIAL = [
   { href: "https://github.com", icon: faGithub, label: "GitHub" },
   { href: "https://linkedin.com", icon: faLinkedin, label: "LinkedIn" },
   { href: "https://instagram.com", icon: faInstagram, label: "Instagram" },
-  { href: "https://twitter.com", icon: faTwitter, label: "Twitter" },
 ] as const;
 
 export function ContactSection({ setSection }: Props) {
@@ -59,8 +56,7 @@ export function ContactSection({ setSection }: Props) {
               >
                 {t("email")}
               </a>
-              <p className="mt-2 flex items-center gap-1 text-xs text-zinc-500 dark:text-white/50">
-                <FontAwesomeIcon icon={faCheckCircle} className="text-[#05DFD7]" />
+              <p className="mt-2 text-xs text-zinc-500 dark:text-white/50">
                 {t("info.active")}
               </p>
             </div>
@@ -77,8 +73,7 @@ export function ContactSection({ setSection }: Props) {
               >
                 {t("phone")}
               </a>
-              <p className="mt-2 flex items-center gap-1 text-xs text-zinc-500 dark:text-white/50">
-                <FontAwesomeIcon icon={faCheckCircle} className="text-[#05DFD7]" />
+              <p className="mt-2 text-xs text-zinc-500 dark:text-white/50">
                 {t("info.active")}
               </p>
             </div>

@@ -40,7 +40,7 @@ export function PortfolioShell() {
   return (
     <NextIntlClientProvider locale={locale} messages={messages}>
       <FontAwesomeSetup />
-      <ThemeToggle />
+      <ThemeToggle currentSection={section} />
       <div className="relative h-screen w-screen overflow-hidden bg-zinc-100 text-zinc-900 dark:bg-[#040404] dark:text-white">
         <DynamicBackground />
         <main className="relative z-10 flex h-full w-full items-center justify-center px-4 pb-6 pt-14 md:px-8 md:pt-6">

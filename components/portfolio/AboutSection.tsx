@@ -92,7 +92,7 @@ export function AboutSection({ setSection }: Props) {
         <div className="mt-4 grid gap-4 md:grid-cols-3">
           <div className="rounded border border-[#05DFD7]/60 bg-[rgba(5,223,215,0.05)] p-5 transition hover:-translate-y-1 hover:bg-[rgba(5,223,215,0.12)]">
             <h4 className="mb-2 flex items-center gap-2 text-base text-[#05DFD7]">
-              <FontAwesomeIcon icon={faPalette} className="text-lg" />
+              <FontAwesomeIcon icon={faPalette} className="text-sm" />
               {t("services.web.title")}
             </h4>
             <p className="text-sm leading-relaxed text-justify text-zinc-700 dark:text-white/80">
@@ -101,7 +101,7 @@ export function AboutSection({ setSection }: Props) {
           </div>
           <div className="rounded border border-[#05DFD7]/60 bg-[rgba(5,223,215,0.05)] p-5 transition hover:-translate-y-1 hover:bg-[rgba(5,223,215,0.12)]">
             <h4 className="mb-2 flex items-center gap-2 text-base text-[#05DFD7]">
-              <FontAwesomeIcon icon={faShareAlt} className="text-lg" />
+              <FontAwesomeIcon icon={faShareAlt} className="text-sm" />
               {t("services.social.title")}
             </h4>
             <p className="text-sm leading-relaxed text-justify text-zinc-700 dark:text-white/80">
@@ -110,7 +110,7 @@ export function AboutSection({ setSection }: Props) {
           </div>
           <div className="rounded border border-[#05DFD7]/60 bg-[rgba(5,223,215,0.05)] p-5 transition hover:-translate-y-1 hover:bg-[rgba(5,223,215,0.12)]">
             <h4 className="mb-2 flex items-center gap-2 text-base text-[#05DFD7]">
-              <FontAwesomeIcon icon={faCogs} className="text-lg" />
+              <FontAwesomeIcon icon={faCogs} className="text-sm" />
               {t("services.automation.title")}
             </h4>
             <p className="text-sm leading-relaxed text-justify text-zinc-700 dark:text-white/80">
