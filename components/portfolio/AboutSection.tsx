@@ -6,6 +6,7 @@ import {
   faShareAlt,
   faUser,
 } from "@fortawesome/free-solid-svg-icons";
+import { faSpotify } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useTranslations } from "next-intl";
 
@@ -41,7 +42,18 @@ export function AboutSection({ setSection }: Props) {
             <p className="mb-3 text-sm leading-relaxed text-justify text-zinc-700 dark:text-white/80">
               {t("intro2")}
             </p>
-            <p className="text-sm leading-relaxed text-justify text-zinc-700 dark:text-white/80">{t("intro3")}</p>
+            <p className="mb-3 text-sm leading-relaxed text-justify text-zinc-700 dark:text-white/80">{t("intro3")}</p>
+            <div className="my-4 flex justify-center">
+              <a
+                href="https://open.spotify.com/intl-es/artist/74SidSBDGeNveuIm1uzHKA"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 rounded-lg bg-[#1DB954] px-6 py-3 font-semibold text-white transition hover:bg-[#1ed760] hover:shadow-lg hover:shadow-[#1DB954]/50"
+              >
+                <FontAwesomeIcon icon={faSpotify} className="text-lg" />
+                Spotify
+              </a>
+            </div>
           </div>
           <div className="flex aspect-square items-center justify-center overflow-hidden rounded-lg border-2 border-[#05DFD7]">
             <img 
