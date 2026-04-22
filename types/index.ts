@@ -5,3 +5,4 @@
 export type { ExperienceEntry } from "./experience";
 export type { ProjectItem } from "./project";
 export type { Locale, SectionId } from "./section";
+export type { TestimonialItem } from "./testimonial";
