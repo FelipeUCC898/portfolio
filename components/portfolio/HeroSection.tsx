@@ -1,6 +1,6 @@
 "use client";
 
-import { faCirclePlay } from "@fortawesome/free-solid-svg-icons";
+import { faCirclePlay, faDownload } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useTranslations } from "next-intl";
 import { useEffect, useRef, useState } from "react";
@@ -148,7 +148,18 @@ export function HeroSection({ setSection, locale, setLocale }: Props) {
 
       <div className="flex w-full flex-1 flex-col items-stretch gap-4">
         <HeroVideoEmbed key={locale} locale={locale} />
-        <LanguageSelector locale={locale} onChange={setLocale} />
+        <div className="flex items-center gap-3">
+          <LanguageSelector locale={locale} onChange={setLocale} />
+          <a
+            href="/CV/CV_felipe_narvaez.pdf"
+            download="CV_Felipe_Narvaez.pdf"
+            className="flex items-center gap-2 rounded-md border border-[#05DFD7] bg-transparent px-3 py-2 text-xs font-medium text-[#05DFD7] transition-all hover:bg-[#05DFD7] hover:text-zinc-900 dark:hover:text-zinc-900"
+            title={t("downloadCV")}
+          >
+            <FontAwesomeIcon icon={faDownload} className="text-sm" />
+            CV
+          </a>
+        </div>
       </div>
     </div>
   );

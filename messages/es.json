@@ -15,7 +15,8 @@
     "name": "Felipe Narváez Gómez",
     "role": "Desarrollador y Diseñador Creativo",
     "videoPlaceholder": "Video de presentación (30–45 s)",
-    "videoHint": "Coloca tus archivos en /public/videos/intro-{locale}.mp4"
+    "videoHint": "Coloca tus archivos en /public/videos/intro-{locale}.mp4",
+    "downloadCV": "Descargar CV"
   },
   "about": {
     "title": "Acerca de Mí",
