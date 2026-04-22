@@ -8,14 +8,14 @@ import {
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const LINKS = [
-  { href: "https://github.com", icon: faGithub, label: "GitHub" },
+  { href: "https://github.com/FelipeUCC898", icon: faGithub, label: "GitHub" },
   {
-    href: "https://www.linkedin.com",
+    href: "https://www.linkedin.com/in/felipe-narvaez-a451362b6/",
     icon: faLinkedin,
     label: "LinkedIn",
   },
   {
-    href: "https://www.instagram.com",
+    href: "https://www.instagram.com/xannax.wav",
     icon: faInstagram,
     label: "Instagram",
   },

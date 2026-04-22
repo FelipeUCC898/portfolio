@@ -35,27 +35,28 @@ export function AboutSection({ setSection }: Props) {
             <h3 className="mb-3 text-lg font-semibold text-[#05DFD7]">
               {t("introTitle")}
             </h3>
-            <p className="mb-3 text-sm leading-relaxed text-zinc-700 dark:text-white/80">
+            <p className="mb-3 text-sm leading-relaxed text-justify text-zinc-700 dark:text-white/80">
               {t("intro1")}
             </p>
-            <p className="mb-3 text-sm leading-relaxed text-zinc-700 dark:text-white/80">
+            <p className="mb-3 text-sm leading-relaxed text-justify text-zinc-700 dark:text-white/80">
               {t("intro2")}
             </p>
-            <p className="text-sm leading-relaxed text-zinc-700 dark:text-white/80">{t("intro3")}</p>
+            <p className="text-sm leading-relaxed text-justify text-zinc-700 dark:text-white/80">{t("intro3")}</p>
           </div>
-          <div
-            className="flex aspect-square items-center justify-center rounded-lg border-2 border-[#05DFD7] bg-gradient-to-br from-[rgba(5,223,215,0.2)] to-[rgba(5,223,215,0.05)] text-6xl text-[#05DFD7]/80"
-            aria-hidden
-          >
-            <FontAwesomeIcon icon={faUser} className="select-none" />
+          <div className="flex aspect-square items-center justify-center overflow-hidden rounded-lg border-2 border-[#05DFD7]">
+            <img 
+              src="/img/imagen_portfolio.jpeg" 
+              alt="Felipe Narváez Gómez" 
+              className="h-full w-full object-cover"
+            />
           </div>
         </div>
 
         <h3 className="mt-10 font-[family-name:var(--font-raleway)] text-xl text-zinc-900 dark:text-white">
           {t("goalsTitle")}
         </h3>
-        <p className="mt-3 text-sm leading-relaxed text-zinc-700 dark:text-white/80">{t("goals1")}</p>
-        <p className="mt-3 text-sm leading-relaxed text-zinc-700 dark:text-white/80">{t("goals2")}</p>
+        <p className="mt-3 text-sm leading-relaxed text-justify text-zinc-700 dark:text-white/80">{t("goals1")}</p>
+        <p className="mt-3 text-sm leading-relaxed text-justify text-zinc-700 dark:text-white/80">{t("goals2")}</p>
 
         <h3 className="mt-10 font-[family-name:var(--font-raleway)] text-xl text-zinc-900 dark:text-white">
           {t("skillsTechTitle")}
@@ -90,29 +91,29 @@ export function AboutSection({ setSection }: Props) {
         </h3>
         <div className="mt-4 grid gap-4 md:grid-cols-3">
           <div className="rounded border border-[#05DFD7]/60 bg-[rgba(5,223,215,0.05)] p-5 transition hover:-translate-y-1 hover:bg-[rgba(5,223,215,0.12)]">
-            <h4 className="mb-2 flex items-center gap-2 text-[#05DFD7]">
-              <FontAwesomeIcon icon={faPalette} />
+            <h4 className="mb-2 flex items-center gap-2 text-base text-[#05DFD7]">
+              <FontAwesomeIcon icon={faPalette} className="text-lg" />
               {t("services.web.title")}
             </h4>
-            <p className="text-sm leading-relaxed text-zinc-700 dark:text-white/80">
+            <p className="text-sm leading-relaxed text-justify text-zinc-700 dark:text-white/80">
               {t("services.web.body")}
             </p>
           </div>
           <div className="rounded border border-[#05DFD7]/60 bg-[rgba(5,223,215,0.05)] p-5 transition hover:-translate-y-1 hover:bg-[rgba(5,223,215,0.12)]">
-            <h4 className="mb-2 flex items-center gap-2 text-[#05DFD7]">
-              <FontAwesomeIcon icon={faShareAlt} />
+            <h4 className="mb-2 flex items-center gap-2 text-base text-[#05DFD7]">
+              <FontAwesomeIcon icon={faShareAlt} className="text-lg" />
               {t("services.social.title")}
             </h4>
-            <p className="text-sm leading-relaxed text-zinc-700 dark:text-white/80">
+            <p className="text-sm leading-relaxed text-justify text-zinc-700 dark:text-white/80">
               {t("services.social.body")}
             </p>
           </div>
           <div className="rounded border border-[#05DFD7]/60 bg-[rgba(5,223,215,0.05)] p-5 transition hover:-translate-y-1 hover:bg-[rgba(5,223,215,0.12)]">
-            <h4 className="mb-2 flex items-center gap-2 text-[#05DFD7]">
-              <FontAwesomeIcon icon={faCogs} />
+            <h4 className="mb-2 flex items-center gap-2 text-base text-[#05DFD7]">
+              <FontAwesomeIcon icon={faCogs} className="text-lg" />
               {t("services.automation.title")}
             </h4>
-            <p className="text-sm leading-relaxed text-zinc-700 dark:text-white/80">
+            <p className="text-sm leading-relaxed text-justify text-zinc-700 dark:text-white/80">
               {t("services.automation.body")}
             </p>
           </div>
