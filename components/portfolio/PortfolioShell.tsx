@@ -16,6 +16,7 @@ import { HeroSection } from "./HeroSection";
 import { ProjectsSection } from "./ProjectsSection";
 import { TestimonialsSection } from "./TestimonialsSection";
 import { ThemeToggle } from "./ThemeToggle";
+import { WhatsAppButton } from "./WhatsAppButton";
 
 export function PortfolioShell() {
   const [locale, setLocale] = useState<Locale>("es");
@@ -41,6 +42,7 @@ export function PortfolioShell() {
     <NextIntlClientProvider locale={locale} messages={messages}>
       <FontAwesomeSetup />
       <ThemeToggle currentSection={section} />
+      <WhatsAppButton />
       <div className="relative h-screen w-screen overflow-hidden bg-zinc-100 text-zinc-900 dark:bg-[#040404] dark:text-white">
         <DynamicBackground />
         <main className="relative z-10 flex h-full w-full items-center justify-center px-3 pb-4 pt-12 sm:px-4 sm:pb-6 sm:pt-14 md:px-8 md:pt-6">
