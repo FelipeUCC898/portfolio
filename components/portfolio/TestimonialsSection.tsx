@@ -5,6 +5,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useTranslations } from "next-intl";
 
 import type { SectionId } from "@/types/section";
+import type { TestimonialItem } from "@/types/testimonial";
 
 import { SectionPanel } from "./SectionPanel";
 import { SectionWithNav } from "./SectionWithNav";
@@ -15,12 +16,7 @@ type Props = {
 
 export function TestimonialsSection({ setSection }: Props) {
   const t = useTranslations("testimonials");
-  const items = t.raw("items") as Array<{
-    quote: string;
-    author: string;
-    role: string;
-    company: string;
-  }>;
+  const items = t.raw("items") as TestimonialItem[];
 
   // Generate initials from company name for avatar
   const getInitials = (company: string) => {
