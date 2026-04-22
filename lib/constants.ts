@@ -41,3 +41,21 @@ export const BREAKPOINTS = {
   xl: 1280,
   "2xl": 1536,
 };
+
+/**
+ * Orden de las secciones en la navegación
+ */
+export const SECTION_ORDER = [
+  "hero",
+  "about",
+  "experience",
+  "projects",
+  "testimonials",
+  "contact",
+] as const;
+
+/**
+ * Color de acento principal del portafolio
+ */
+export const ACCENT_COLOR = "#05DFD7";
+
